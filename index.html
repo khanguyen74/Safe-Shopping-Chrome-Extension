@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+  <body>
+
+    <div class="container py-2">
+    <p>Input URL you want to check</p>
+    <input type="text" id="urlInput"/>
+    <button type="button" class="btn btn-primary mt-2" id="whois">Get info</button>
+
+    <div id="site-info" style="visibility: hidden" class="mt-3">
+        <div className="row">
+            <h6>Server Location</h6>
+            <p id="server-location"></p>
+        </div>
+        <div className="row">
+            <h6>Organization</h6>
+            <p id="organization"></p>
+        </div>
+    </div>
+</div>
+    <!-- <script src="bootstrap.bundle.min.js"> </script> -->
+    <!-- <script src="geturl.js"></script> -->
+
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
